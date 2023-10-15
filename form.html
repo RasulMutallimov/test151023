@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <!-- Тег формы -->
+    <form action="">
+        <p>
+            Login <input type="text" name="Login" placeholder="Введите логин" required>
+        </p>
+        <p>
+            <!-- Поле для ввода пароля -->
+            Password <input type="password" name="Password" placeholder="Введите пароль">
+        </p>
+        <h3>Ваши интересы</h3>
+
+        <p>
+            <!-- выбор нескольких элементов  -->
+
+            <label> <input type="checkbox" name="interess" value="sport" checked disabled> Спорт</label>
+            <label> <input type="checkbox" name="interess" value="programing" id="programing"> Програмировани</label>
+            <label> <input type="checkbox" name="interess" value="art"> Рисование</label>
+
+
+        </p>
+        <h3>Способ оплаты</h3>
+        <p>
+            <!-- Выбор одного элемента -->
+            <label></label> <input type="radio" name="pay" value="card">Карта</label>
+            <label> <input type="radio" name="pay" value="qr">QR код</label>
+            <label> <input type="radio" name="pay" value="cash">Наличными</label>
+
+        </p>
+        <p>
+            <input type="submit" value="войти">
+        </p>
+
+        <h3>Ваш Город </h3>
+
+        <p>
+            <!-- Выбор из выпадающего списка -->
+            <select name="city">
+                <option value="Moscow">Москва</option>
+                <option value="Surgut">Сургут</option>
+                <option value="Tyumen">Тюмень</option>
+
+            </select>
+        <p>
+        <h3>Введите коментарий</h3>
+        <!-- Поле ввода многострочного текста -->
+        <textarea name="coment" cols="30" rows="10"></textarea>
+        <p>
+            <!-- Кнопка отправить  -->
+            <input type="submit" value="Войти">
+            <!--Кнопка очистить -->
+            <button
+        </p>
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
